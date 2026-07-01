@@ -1,32 +1,31 @@
 # GeneradorQR
 
-**Aplicación de escritorio** para generar códigos QR de forma masiva desde un archivo CSV.
+**Aplicación de escritorio** para generar códigos QR de forma masiva a partir de un archivo CSV.
+
+![Interfaz del GeneradorQR](screenshot.png)
 
 ---
 
 ## ✨ Características
 
 - Interfaz gráfica sencilla con Tkinter.
-- Selección de carpeta de salida.
-- Lectura de enlaces desde CSV.
-- Generación automática de códigos QR en PNG.
-- Creación de un nuevo archivo CSV con los datos procesados.
+- Selección fácil de carpeta de salida.
+- Generación masiva de códigos QR.
+- Creación automática de un CSV con los resultados.
 
 ## 🛠 Tecnologías
 
 - Python 3
-- Tkinter (GUI)
+- Tkinter (interfaz)
 - qrcode
 
 ## 🚀 Instalación
 
 ```bash
-# Clonar el repositorio
 git clone https://github.com/Deve-Lopez/GeneradorQR.git
 cd GeneradorQR
-
-# Instalar dependencias
 pip install -r requirements.txt
+python main.py
 
 
 ▶️ Uso
