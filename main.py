@@ -105,7 +105,7 @@ if __name__ == "__main__":
               command=seleccionar_carpeta, width=30).pack(pady=10)
 
     # Botón principal
-    tk.Button(root, text="Seleccionqar CSV y Generar QR", 
+    tk.Button(root, text="Seleccionar CSV → Generar QR", 
               command=generar_qr, width=30, bg="#4CAF50", fg="white").pack(pady=20)
 
     root.mainloop()
